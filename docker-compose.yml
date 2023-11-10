@@ -16,8 +16,8 @@ services:
         volumes:
             - ./:/app
 
-    #php-cli:
-    #    build:
-    #        context: docker/php-cli
-    #    volumes:
-    #        - ./:/app
+    php-cli:
+        build:
+            context: docker/php-cli
+        volumes:
+            - ./:/app

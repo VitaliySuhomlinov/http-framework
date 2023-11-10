@@ -1,4 +1,4 @@
-init: docker-down-clear docker-pull docker-build-pull docker-up
+init: docker-down-clear docker-pull docker-build-pull docker-up composer-install
 down: docker-down-clear
 check: lint analyze test
 

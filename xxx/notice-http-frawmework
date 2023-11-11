@@ -1,2 +1,15 @@
 исходные коды из урока - https://github.com/deworkerpro/demo-php-http-framework/blob/master/composer.json
 запустить bash в cli контейнере docker compose rum php-cli bash
+
+#####
+phpunit.xml
+Удалил
+requireCoverageMetadata="true"
+beStrictAboutCoverageMetadata="true"
+Были расположены после строки
+executionOrder="depends,defects"
+
+Запуск теста из консоли  ./vendor/bin/phpunit --color=always
+#####
+
+

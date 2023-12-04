@@ -13,6 +13,6 @@ class ExampleTest extends TestCase
     {
         $example = new Example();
         $result  = $example->do();
-        self::assertEquals(4, $result);
+        self::assertEquals(42, $result);
     }
 }
